@@ -8,7 +8,7 @@
     <!-- 부트스트랩 CSS CDN 포함 -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- 사용자 정의 CSS -->
-    <style>
+    <style> 
         body {
             background-color: #f8f9fa; /* 전체 배경색 */
             font-family: 'Noto Sans KR', sans-serif; /* 한국어 글꼴 설정 */
