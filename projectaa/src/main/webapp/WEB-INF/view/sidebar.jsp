@@ -161,7 +161,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./AES_SCH">
-                    <span data-feather="file"></span> 초품아-초등1학교 관계
+                    <span data-feather="file"></span> 초품아-초등학교 관계
                 </a>
             </li>
             <li class="nav-item">
