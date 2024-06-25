@@ -29,10 +29,10 @@ public class TestController {
         return "main"; // 해당 뷰 이름 반환 (여기서는 ww라는 뷰 이름을 반환하도록 가정)
     }
     
-    @GetMapping("/AES_APT") // AES_APT에 대한 목록 조회
+    @GetMapping("/AES_data") // AES_APT에 대한 목록 조회
     public String listAES_APT() {
         // 여기에 AES_APT 관련 작업 수행
-        return "AES_APT"; // 해당 뷰 이름 반환 (여기서는 AES_APT라는 뷰 이름을 반환하도록 가정)
+        return "AES_data"; // 해당 뷰 이름 반환 (여기서는 AES_APT라는 뷰 이름을 반환하도록 가정)
     }
     
     @GetMapping("/AES_SCH") // AES_APT에 대한 목록 조회

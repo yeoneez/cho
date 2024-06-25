@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -145,8 +145,7 @@
     </style>
 </head>
 <body>
-	<!-- sidebar.jsp -->
-	<div class="col-md-2 d-none d-md-block sidebar">
+    <div class="col-md-2 d-none d-md-block sidebar">
     <div class="sidebar-sticky">
         <ul class="nav flex-column">
             <li class="nav-item">
@@ -155,28 +154,37 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./AES_APT">
-                    <span data-feather="file"></span> 초품아-일반아파트 관계
+                <a class="nav-link font-weight-bold" href="./AES_data">
+                    <span data-feather="file"></span> 초품아 데이터 분석
                 </a>
+                <div class="collapse show" id="collapseMenu1">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a class="nav-link" href="./AES_data#1">개요</a></li>
+                        <li><a class="nav-link" href="./AES_data#2">어원</a></li>
+                        <li><a class="nav-link" href="./AES_data#3">명칭과 발음</a></li>
+                        <li><a class="nav-link" href="#">test</a></li>
+                    </ul>
+                </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./AES_SCH">
-                    <span data-feather="file"></span> 초품아-초등학교 관계
+                <a class="nav-link font-weight-bold" href="#example">
+                    <span data-feather="file"></span> 예시
                 </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="Outlier">
-                    <span data-feather="shopping-cart"></span> 이상치처리
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="Sale_price">
-                    <span data-feather="users"></span> 초품아 기준에 따른 매매가
-                </a>
+                <div class="collapse show" id="collapseMenu2">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a class="nav-link" href="#example1">예시1</a></li>
+                        <li><a class="nav-link" href="#example2">예시2</a></li>
+                        <li><a class="nav-link" href="#example3">예시3</a></li>
+                    </ul>
+                </div>
             </li>
         </ul>
     </div>
 </div>
 
+<!-- 부트스트랩 JS 및 필요한 종속성 CDN 포함 -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
